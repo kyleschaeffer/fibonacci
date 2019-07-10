@@ -27,6 +27,7 @@ export function fibonacciLoop(n: number): number {
 /**
  * Find nth Fibonacci number via loop using cache
  *  - Uses higher order function and closure to increase performance on subsequent calls
+ *  - This technique is called "memoization"
  */
 function fibonacciGenerator(): (n: number) => number {
   // Fibonacci cache
