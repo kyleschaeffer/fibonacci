@@ -1,6 +1,6 @@
 /**
  * Find nth Fibonacci number recursively
- *  - Not performant: O(n log n) ?
+ *  - Pretty, but not performant
  */
 export function fibonacciRecursive(n: number): number {
   if (n <= 2) return 1;
